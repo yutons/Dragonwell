@@ -1,6 +1,5 @@
 FROM registry.cn-hangzhou.aliyuncs.com/dragonwell/dragonwell8:8.1.1-GA_alpine_x86_64_8u222-b67
 
-# 拥有者
 MAINTAINER yutons <yuton.yao@qq.com>
 
 # 更换Alpine源为mirrors.huaweicloud.com
