@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/dragonwell/dragonwell8:8.2.2-GA_alpine_x86_64_8u232-b82
+FROM registry.cn-shanghai.aliyuncs.com/dragonwell/dragonwell11:11.0.5.1-preview_alpine_x86_64
 
 MAINTAINER yutons <yuton.yao@qq.com>
 
@@ -13,4 +13,3 @@ RUN set -xe && apk --no-cache add ttf-dejavu fontconfig
 # 解决Docker dragonwell 容器时间与jdk时区不同问题(https://www.cnblogs.com/solooo/p/7832117.html)
 ADD localtime /etc/
 RUN echo "Asia/Shanghai" > /etc/timezone
-
