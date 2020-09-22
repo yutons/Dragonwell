@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/dragonwell/dragonwell8:8.2.2-GA_alpine_x86_64_8u232-b82
+FROM registry.cn-hangzhou.aliyuncs.com/dragonwell/dragonwell8:8.4.4-GA_alpine_x86_64_8u262-b10_slim
 
 MAINTAINER yutons <yuton.yao@qq.com>
 
